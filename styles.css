@@ -1,0 +1,43 @@
+body {
+    background: grey;
+    color: white;
+    font-family: 'Adobe Hebrew';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(41, 40, 40);
+    padding: 10px 20px;
+}
+
+section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+div{
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer{
+    background: black;
+    padding: 10px 20px;
+}
