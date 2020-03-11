@@ -1,0 +1,81 @@
+body
+{
+  background: #121212;
+
+}
+
+.menu
+{
+  margin: 0;
+  padding: 0;
+  width:200px;
+  background-color:#273746;
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  border: 1px solid blue;
+  overflow: auto;
+}
+
+.menu a
+{
+
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 3px;
+  /*height: 40px;
+
+  font-size: 20px;*/
+  transition: 0.7s;
+
+}
+
+.menu a.active
+{
+  background-color:#0096FF ;
+
+}
+
+
+.menu a:hover:not(.active)
+{
+  border: 1px solid blue;
+  background-color: #34495E;
+}
+
+.content
+{
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px)
+{
+  .menu
+  {
+    width:100%;
+    height: auto;
+    position: relative;
+  }
+  .menu a
+  {
+    float: left;
+  }
+  .content
+  {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+  {
+    text-align: center;
+    float: none;
+  }
+}
